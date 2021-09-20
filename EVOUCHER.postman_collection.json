@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "f03fb19b-0096-43bf-a373-40ed3e91c861",
+		"name": "EVOUCHER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "createEVoucher",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"title\": \"evoucher\",\r\n    \"description\": \"evoucher create\",\r\n    \"expireDate\": \"19/09/2022\",\r\n    \"image\": \"base64imagestring\",\r\n    \"amount\": \"20.00\",\r\n    \"paymentMethod\": \"1\",\r\n    \"paymentMethodDiscount\": \"1\",\r\n    \"quantity\": \"10\",\r\n    \"buyType\": \"1\",\r\n    \"name\": \"ayeminwai\",\r\n    \"phoneNo\": \"972784660\",\r\n    \"giftPerUserLimit\": \"1000\",\r\n    \"maxEVoucherLimit\": \"1000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/evoucher/v1.0/createEVoucher",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"evoucher",
+						"v1.0",
+						"createEVoucher"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateEVoucher",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"title\": \"evoucher\",\r\n    \"description\": \"evoucher create\",\r\n    \"expireDate\": \"19/09/2022\",\r\n    \"image\": \"base64imagestring\",\r\n    \"amount\": \"20.00\",\r\n    \"paymentMethod\": \"1\",\r\n    \"paymentMethodDiscount\": \"1\",\r\n    \"quantity\": \"10\",\r\n    \"buyType\": \"1\",\r\n    \"name\": \"ayeminwai\",\r\n    \"phoneNo\": \"972784660\",\r\n    \"giftPerUserLimit\": \"1000\",\r\n    \"maxEVoucherLimit\": \"1000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/evoucher/v1.0/createEVoucher",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"evoucher",
+						"v1.0",
+						"createEVoucher"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "setInActive",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/evoucher/v1.0/setInActive",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"evoucher",
+						"v1.0",
+						"setInActive"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

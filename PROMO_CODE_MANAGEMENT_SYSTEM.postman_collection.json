@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "c1f7fbd8-ee73-4755-9422-7dcf1adeb87e",
+		"name": "PROMO_CODE_MANAGEMENT_SYSTEM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "generate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"evoucherId\":\"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9004/promoCodes/promocode/v1.0/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9004",
+					"path": [
+						"promoCodes",
+						"promocode",
+						"v1.0",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "validatePromoCode",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"qrCode\":\"\",\r\n    \"promoCode\":\"Ann6Qb98629\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9004/promoCodes/promocode/v1.0/validatePromoCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9004",
+					"path": [
+						"promoCodes",
+						"promocode",
+						"v1.0",
+						"validatePromoCode"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

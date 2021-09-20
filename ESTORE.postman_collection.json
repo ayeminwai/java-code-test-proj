@@ -1,0 +1,236 @@
+{
+	"info": {
+		"_postman_id": "63dda32c-b911-41f1-ae1b-eb27ab7cea63",
+		"name": "ESTORE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "eVouchers List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/estore/v1.0/eVouchers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"estore",
+						"v1.0",
+						"eVouchers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eVoucherDetails List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"evoucherId\": \"4\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/estore/v1.0/eVoucherDetails",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"estore",
+						"v1.0",
+						"eVoucherDetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"evoucherId\": \"4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/estore/v1.0/checkout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"estore",
+						"v1.0",
+						"checkout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "paymentMethods",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/estore/v1.0/paymentMethods",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"estore",
+						"v1.0",
+						"paymentMethods"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"evoucherId\":\"\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/estore/v1.0/payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"estore",
+						"v1.0",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "purchaseHistory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "ReqDatetime",
+						"value": "19092021095503",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqDateTime\": \"19092021095503\",\r\n    \"evoucherStatus\": \"A\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9003/eVoucher/estore/v1.0/purchaseHistory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"eVoucher",
+						"estore",
+						"v1.0",
+						"purchaseHistory"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

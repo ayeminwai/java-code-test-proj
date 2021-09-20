@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+	<Properties>
+		<Property name="LOG_PATTERN">
+			%d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${hostName} - %X{id} - %X{sessionId} - %X{servletPath} -- [%15.15t] %-40.40c{1.} -- %L : %m%n%ex
+		</Property>
+	</Properties>
+
+	<Appenders>
+		
+		<!-- Console Appender -->
+		<Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</Console>
+			
+		<!-- Rolling File Appender -->
+		<RollingFile name="FileAppender" fileName="logs/EVoucherAPI.log" filePattern="logs/EVoucherAPI-%d{yyyy-MM-dd}-%i.log">
+			<PatternLayout>
+				<Pattern>${LOG_PATTERN}</Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+			<DefaultRolloverStrategy max="10" />
+		</RollingFile>
+			
+		<!-- Rolling File Appender For Hikiri Pool -->
+		<RollingFile name="HPFileAppender" fileName="logs/EVoucherAPIHP.log" filePattern="logs/EVoucherAPIHP-%d{yyyy-MM-dd}-%i.log">
+			<PatternLayout>
+				<Pattern>${LOG_PATTERN}</Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+			<DefaultRolloverStrategy max="10" />
+		</RollingFile>
+	
+		<!-- SMTP Appender -->
+		<SMTP 
+			name="MailAppender" 
+			subject="Log4j2 Demo [PROD]" 
+			to="ayeminwai@gmail.com" 
+			from="ayeminwai1991@gmail.com"
+			smtpHost="smtp.gmail.com" 
+			smtpPort="465"
+			smtpUsername="ayeminwai.ucsp@gmail.com"
+			smtpPassword="a!a3c@rdts1r" 
+			bufferSize="50"
+			smtpProtocol="smtps"
+        	smtpDebug="true"
+        	ignoreExceptions="false" 
+			>
+			<ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout>
+				<Pattern>${LOG_PATTERN}</Pattern>
+			</PatternLayout>
+		</SMTP>
+	
+	</Appenders>
+
+	<Loggers>
+		
+		<AsyncLogger name="com.ayeminwai.evoucher" level="debug" additivity="false">
+	        <AppenderRef ref="ConsoleAppender" />
+	        <AppenderRef ref="FileAppender" />
+	    </AsyncLogger>
+	    
+	     <!-- this config is hikari pool -->
+		<AsyncLogger name="com.zaxxer.hikari" level="debug" additivity="false">
+	        <AppenderRef ref="HPFileAppender" />
+		</AsyncLogger>
+	
+		<Root level="info">
+			<AppenderRef ref="ConsoleAppender" />
+			<AppenderRef ref="FileAppender" />
+		</Root>
+	
+	</Loggers>
+	
+</Configuration>

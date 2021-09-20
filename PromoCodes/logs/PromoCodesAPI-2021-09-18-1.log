@@ -1,0 +1,191 @@
+2021-09-18 00:23:53.689  INFO LAPTOP-33UC8H82 -  -  -  -- [kground-preinit] o.h.v.i.u.Version                        -- 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-09-18 00:23:53.718  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.a.p.PromoCodesApplication              --  : Starting PromoCodesApplication using Java 1.8.0_231 on LAPTOP-33UC8H82 with PID 19736 (D:\Development\codigo\PromoCodes\target\classes started by aye.wai in D:\Development\codigo\PromoCodes)
+2021-09-18 00:23:53.722 DEBUG LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.a.p.PromoCodesApplication              --  : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-09-18 00:23:53.722  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.a.p.PromoCodesApplication              --  : The following profiles are active: dev
+2021-09-18 00:23:53.868  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor -- 255 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-18 00:23:53.868  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor -- 255 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-18 00:23:54.495  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate -- 128 : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-18 00:23:54.505  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate -- 188 : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-09-18 00:23:54.723  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.s.c.c.s.GenericScope                   -- 283 : BeanFactory id=3c1daee0-f63d-3f96-a6d8-f1c164a9a784
+2021-09-18 00:23:55.391  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              -- 108 : Tomcat initialized with port(s): 9004 (http)
+2021-09-18 00:23:55.401  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.a.c.h.Http11NioProtocol                -- 173 : Initializing ProtocolHandler ["http-nio-9004"]
+2021-09-18 00:23:55.401  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.a.c.c.StandardService                  -- 173 : Starting service [Tomcat]
+2021-09-18 00:23:55.402  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.a.c.c.StandardEngine                   -- 173 : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-18 00:23:55.602  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.a.c.c.C.[.[.[/promoCodes]              -- 173 : Initializing Spring embedded WebApplicationContext
+2021-09-18 00:23:55.602  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] w.s.c.ServletWebServerApplicationContext -- 289 : Root WebApplicationContext: initialization completed in 1733 ms
+2021-09-18 00:23:55.762  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.h.j.i.u.LogHelper                      -- 31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-18 00:23:55.811  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.h.Version                              -- 44 : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-18 00:23:55.959  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.h.a.c.Version                          -- 56 : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-18 00:23:56.211  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.h.d.Dialect                            -- 175 : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-09-18 00:23:56.418  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       -- 52 : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-18 00:23:56.427  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] j.LocalContainerEntityManagerFactoryBean -- 437 : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-18 00:23:56.459  WARN LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       -- 61 : Unable to start LiveReload server
+2021-09-18 00:23:56.531  WARN LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration -- 221 : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-18 00:23:56.812  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration -- 86 : 
+
+Using generated security password: 9b0f775b-f915-42fa-9a67-5a6577a39904
+
+2021-09-18 00:23:56.901  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       -- 51 : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d9d50, org.springframework.security.web.context.SecurityContextPersistenceFilter@67b661e1, org.springframework.security.web.header.HeaderWriterFilter@40fd42c7, org.springframework.security.web.csrf.CsrfFilter@79d649cc, org.springframework.security.web.authentication.logout.LogoutFilter@7e89c207, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@457799b1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3d0e4581, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@39755056, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@721c8220, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@527ca3fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d1737f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2feed8da, org.springframework.security.web.session.SessionManagementFilter@22cff812, org.springframework.security.web.access.ExceptionTranslationFilter@488c6b4f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@254001b8]
+2021-09-18 00:23:57.324  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] DiscoveryClientOptionalArgsConfiguration -- 68 : Eureka HTTP Client uses RestTemplate.
+2021-09-18 00:23:57.627  WARN LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] iguration$LoadBalancerCaffeineWarnLogger -- 82 : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-18 00:23:57.689  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.s.c.n.e.InstanceInfoFactory            -- 67 : Setting initial instance status as: STARTING
+2021-09-18 00:23:57.728  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 372 : Initializing Eureka in region us-east-1
+2021-09-18 00:23:57.733  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 00:23:57.754  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1007 : Disable delta property : false
+2021-09-18 00:23:57.754  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1008 : Single vip registry refresh property : null
+2021-09-18 00:23:57.754  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1009 : Force full registry fetch : false
+2021-09-18 00:23:57.754  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1010 : Application is null : false
+2021-09-18 00:23:57.755  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1011 : Registered Applications size is zero : true
+2021-09-18 00:23:57.755  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1013 : Application version is -1: true
+2021-09-18 00:23:57.755  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1097 : Getting all instance registry info from the eureka server
+2021-09-18 00:23:58.264  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1106 : The response status is 200
+2021-09-18 00:23:58.267  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1321 : Starting heartbeat executor: renew interval is: 30
+2021-09-18 00:23:58.269  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.InstanceInfoReplicator             -- 60 : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-18 00:23:58.273  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 492 : Discovery Client initialized at timestamp 1631901238272 with initial instances count: 1
+2021-09-18 00:23:58.275  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        -- 41 : Registering application PROMOCODES-SERVICE with eureka with status UP
+2021-09-18 00:23:58.275  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.n.d.DiscoveryClient                    -- 1352 : Saw local status change event StatusChangeEvent [timestamp=1631901238275, current=UP, previous=STARTING]
+2021-09-18 00:23:58.277  INFO LAPTOP-33UC8H82 -  -  -  -- [nfoReplicator-0] c.n.d.DiscoveryClient                    -- 873 : DiscoveryClient_PROMOCODES-SERVICE/LAPTOP-33UC8H82:promocodes-service:9004: registering service...
+2021-09-18 00:23:58.277  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.a.c.h.Http11NioProtocol                -- 173 : Starting ProtocolHandler ["http-nio-9004"]
+2021-09-18 00:23:58.298  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              -- 220 : Tomcat started on port(s): 9004 (http) with context path '/promoCodes'
+2021-09-18 00:23:58.299  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration -- 144 : Updating port to 9004
+2021-09-18 00:23:58.324  INFO LAPTOP-33UC8H82 -  -  -  -- [nfoReplicator-0] c.n.d.DiscoveryClient                    -- 882 : DiscoveryClient_PROMOCODES-SERVICE/LAPTOP-33UC8H82:promocodes-service:9004 - registration status: 204
+2021-09-18 00:23:58.558  INFO LAPTOP-33UC8H82 -  -  -  -- [  restartedMain] c.a.p.PromoCodesApplication              --  : Started PromoCodesApplication in 5.499 seconds (JVM running for 6.697)
+2021-09-18 00:28:57.772  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 00:33:57.787  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 00:38:57.793  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 00:43:57.801  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 00:48:57.817  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 00:53:57.820  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 00:58:57.829  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 01:03:57.843  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 09:37:31.554  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 09:42:31.559  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 09:47:31.568  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 09:52:31.577  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 09:57:31.580  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:02:31.591  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:07:31.607  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:12:31.618  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:17:31.633  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:22:31.636  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:27:31.648  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:32:31.657  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:37:31.669  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:42:31.677  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:47:31.681  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:52:31.683  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 10:57:31.698  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:02:31.701  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:07:31.705  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:12:31.706  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:17:31.709  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:22:31.719  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:27:31.732  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:32:31.738  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:37:31.753  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:42:31.755  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:47:31.759  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:52:31.768  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 11:57:31.783  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:02:31.790  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:07:31.802  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:12:31.803  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:17:31.815  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:22:31.818  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:27:31.825  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:32:31.834  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:37:31.835  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:42:31.848  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:47:31.860  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:52:31.866  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 12:57:31.868  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:02:31.874  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:07:31.888  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:12:31.905  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:17:31.906  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:22:31.922  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:27:31.935  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:32:31.944  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:37:31.961  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:42:31.973  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:47:31.981  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:52:31.984  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 13:57:31.998  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:02:32.012  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:07:32.018  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:12:32.030  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:17:32.035  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:22:32.036  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:27:32.050  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:32:32.061  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:37:32.068  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:42:32.075  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:47:32.085  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:52:32.088  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 14:57:32.091  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:02:32.105  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:07:32.116  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:12:32.120  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:17:32.127  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:22:32.128  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:27:32.131  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:32:32.145  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:37:32.148  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:42:32.157  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:47:32.166  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:52:32.182  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 15:57:32.193  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:02:32.196  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:07:32.209  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:12:32.222  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:17:32.236  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:22:32.245  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:27:32.247  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:32:32.261  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:37:32.276  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:42:32.278  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:47:32.286  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:52:32.290  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 16:57:32.297  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:02:32.298  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:07:32.311  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:12:32.322  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:17:32.335  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:22:32.338  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:27:32.341  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:32:32.344  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:37:32.353  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:42:32.363  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:47:32.374  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:52:32.374  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 17:57:32.384  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:02:32.395  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:07:32.409  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:12:32.413  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:17:32.428  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:22:32.441  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:27:32.458  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:32:32.462  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:37:32.468  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:42:32.475  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:47:32.482  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:52:32.482  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 18:57:32.491  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:02:32.499  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:07:32.503  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:12:32.517  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:17:32.531  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:22:32.545  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:27:32.559  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:32:32.568  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:37:32.576  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:42:32.588  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:47:32.602  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:52:32.612  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 19:57:32.623  INFO LAPTOP-33UC8H82 -  -  -  -- [trap-executor-0] c.n.d.s.r.a.ConfigClusterResolver        -- 43 : Resolving eureka endpoints via configuration
+2021-09-18 20:01:48.897  INFO LAPTOP-33UC8H82 -  -  -  -- [on(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin -- 159 : Application shutdown requested.
+2021-09-18 20:01:48.899  INFO LAPTOP-33UC8H82 -  -  -  -- [on(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        -- 62 : Unregistering application PROMOCODES-SERVICE with eureka with status DOWN
+2021-09-18 20:01:48.900  INFO LAPTOP-33UC8H82 -  -  -  -- [on(2)-127.0.0.1] c.n.d.DiscoveryClient                    -- 1352 : Saw local status change event StatusChangeEvent [timestamp=1631971908899, current=DOWN, previous=UP]
+2021-09-18 20:01:48.900  INFO LAPTOP-33UC8H82 -  -  -  -- [nfoReplicator-0] c.n.d.DiscoveryClient                    -- 873 : DiscoveryClient_PROMOCODES-SERVICE/LAPTOP-33UC8H82:promocodes-service:9004: registering service...
+2021-09-18 20:01:49.068  INFO LAPTOP-33UC8H82 -  -  -  -- [on(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean -- 651 : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-18 20:01:49.094  INFO LAPTOP-33UC8H82 -  -  -  -- [on(2)-127.0.0.1] c.n.d.DiscoveryClient                    -- 935 : Shutting down DiscoveryClient ...
